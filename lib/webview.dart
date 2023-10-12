@@ -20,21 +20,18 @@ class _WebviewState extends State<Webview> {
       ..setBackgroundColor(const Color(0x00000000))
       ..setNavigationDelegate(
         NavigationDelegate(
-          onProgress: (int progress) {
-            // Update loading bar.
-          },
           onPageStarted: (String url) {},
           onPageFinished: (String url) {},
           onWebResourceError: (WebResourceError error) {},
           onNavigationRequest: (NavigationRequest request) {
-            if (request.url.startsWith('https://flutter.dev/')) {
+            if (request.url.startsWith('https://www.detik.com/')) {
               return NavigationDecision.prevent;
             }
             return NavigationDecision.navigate;
           },
         ),
       )
-      ..loadRequest(Uri.parse('http://programmer2000.com/pemilu/public'));
+      ..loadRequest(Uri.parse('https://saksi02.voteinsight.id'));
   }
 
   @override
