@@ -31,7 +31,8 @@ class _WebviewState extends State<Webview> {
           },
         ),
       )
-      ..loadRequest(Uri.parse('http://programmer2000.com/pemilu/public/'));
+      ..loadRequest(
+          Uri.parse('https://sohibichwanul.com/easycount/public/home'));
   }
 
   @override
