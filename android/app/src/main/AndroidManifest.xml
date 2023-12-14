@@ -3,7 +3,7 @@
 
     <application
     android:usesCleartextTraffic="true"
-        android:label="vote_insight"
+        android:label="dashboard"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
