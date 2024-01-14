@@ -32,7 +32,7 @@ class _WebviewState extends State<Webview> {
         ),
       )
       ..loadRequest(
-          Uri.parse('https://sohibichwanul.com/easycount/public/home'));
+          Uri.parse('https://sohibichwanul.com/rekapitulasi/public/login'));
   }
 
   @override
